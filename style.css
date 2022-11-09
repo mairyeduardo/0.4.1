@@ -17,44 +17,34 @@ td {
   padding: 10px;
 }
 
-.twitter {
-  background-color: #1A8CD8;
+.redes {
   color: white;
   border: none;
-  }
+}
 
-.twitter:active{
+.redes:active{
   border: dashed;
   border-color: black;
 }
+
+.twitter {
+  background-color: #1A8CD8;
+
+  }
 
 .face{
   background-color: #23A6F5;
-  color: white;
-  border: none;
-}
 
-.face:active{
-  border: dashed;
-  border-color: black;
 }
-
 
 .youtube{
   background-color: #C00000;
-  color: white;
-  border: none;
-}
 
-.youtube:active{
-  border: dashed;
-  border-color: black;
 }
 
 tr:hover:not(:first-child) {
   background-color: #767f91;
 }
-
 
 tr:nth-child(odd):not(:first-child) {
 background-color: #ced1d6;
