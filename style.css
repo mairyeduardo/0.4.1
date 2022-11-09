@@ -1,66 +1,66 @@
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
+}
+
+tr:first-child {
+ background-color: #22272e;
+ color : white;
+ border: none;
+}
+
+tr,th { 
+ padding: 10px;
+ text-align: center;
+}
+
+td {
+  padding: 10px;
+}
+
+.twitter {
+  background-color: #1A8CD8;
+  color: white;
+  border: none;
   }
-  
-  tr:first-child {
-   background-color: #22272e;
-   color : white;
-   border: none;
-  }
-  
-  tr,th { 
-   padding: 10px;
-   text-align: center;
-  }
-  
-  td {
-    padding: 10px;
-  }
-  
-  #twitter {
-    background-color: #1A8CD8;
-    color: white;
-    border: none;
-    }
-  
-  #twitter:active{
-    border: dashed;
-    border-color: black;
-  }
-  
-  #face{
-    background-color: #23A6F5;
-    color: white;
-    border: none;
-  }
-  
-  #face:active{
-    border: dashed;
-    border-color: black;
-  }
-  
-  
-  #youtube{
-    background-color: #C00000;
-    color: white;
-    border: none;
-  }
-  
-  #youtube:active{
-    border: dashed;
-    border-color: black;
-  }
-  
-  tr:hover {
-    background-color: #767f91;
-  }
-  
-  
-  tr:nth-child(odd):not(:first-child) {
-  background-color: #ced1d6;
-  }
-  
-  a{
-   color: white; 
-   text-decoration: none;
-  }
+
+.twitter:active{
+  border: dashed;
+  border-color: black;
+}
+
+.face{
+  background-color: #23A6F5;
+  color: white;
+  border: none;
+}
+
+.face:active{
+  border: dashed;
+  border-color: black;
+}
+
+
+.youtube{
+  background-color: #C00000;
+  color: white;
+  border: none;
+}
+
+.youtube:active{
+  border: dashed;
+  border-color: black;
+}
+
+tr:hover:not(:first-child) {
+  background-color: #767f91;
+}
+
+
+tr:nth-child(odd):not(:first-child) {
+background-color: #ced1d6;
+}
+
+a{
+ color: white; 
+ text-decoration: none;
+}
